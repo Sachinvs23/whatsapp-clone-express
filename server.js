@@ -1,6 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const Rooms = require("./dbrooms");
+const Rooms = require("./dbRooms");
 const cors = require("cors");
 const Messages = require("./dbMessages");
 const Pusher = require("pusher");
